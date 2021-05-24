@@ -4,10 +4,12 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    
+    
 }
 section {
     height: 500px;
-    min-width: 420px;
+    min-width: 270px;
     background-color: white;
     
     
@@ -26,6 +28,7 @@ footer {
     color: white;
     text-align: center;
     padding: 80px;
+    min-width: 270px;
     
 }
 
@@ -239,13 +242,15 @@ a:active{
     margin-left: 40px;
     margin-bottom: 200px;
 }
-    body {
-    min-width: 481px;   
-    
+      
+}
+.hero-area {
+    margin-top: 50px;
+}
+.socials {
+    margin-top: 60px;
 }
 
-
-}
 @media only screen and (max-width: 652px) {
     .sub-section2 {
         display: flex;
@@ -253,4 +258,5 @@ a:active{
         text-align: center;
         padding: 80px;
         height: 1700px;
+}
 }
