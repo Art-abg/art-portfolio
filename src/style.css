@@ -6,19 +6,22 @@ body {
 }
 section {
     height: 500px;
+    min-width: 420px;
     background-color: white;
     
     
 }
 
 .hero {
-    background-color: #1c1d25;
+    background-color: #041c33;
     height: 100vh;
+    min-width: 420px;
     color: white;
     font-size: 30px;
 }
 footer {
-    background-color: rgba(0, 19, 41, 0.959);
+    height: 40%;
+    background-color: rgba(4, 31, 61, 0.959);
     color: white;
     text-align: center;
     padding: 80px;
@@ -120,6 +123,7 @@ p {
 .headshot {
     height: 200px;
     border-radius: 50%;
+    margin: 7px;
     
 }
 .headshot-cont {
@@ -197,15 +201,43 @@ a:active{
 }
     ul {
         display: none;
-        background-color: #2c2e3a;
+        background-color: #062949;
         margin-bottom: 50px;
     }
     nav {
         align-items: flex;
         flex-direction: column-reverse;
-        background-color: #2c2e3a;
+        background-color: #062949;
     }
     .logo {
         display: none;
     }
+    .social {
+        margin-right: 10px;
+    }
+    h1 {
+        margin-left: 1px;
+    }
+    .sub-section {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+       
+    }
+    .sub-section2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 80px
+}
+    .hero-text {
+    margin-left: 40px;
+    margin-bottom: 200px;
+}
+    body {
+    min-width: 570px;   
+    
+}
+
 }
