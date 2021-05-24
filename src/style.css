@@ -153,6 +153,7 @@ p {
     .project-cont {
         display: flex;
         flex-wrap: wrap;
+        
     }
    
 }
